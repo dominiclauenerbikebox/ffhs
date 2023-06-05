@@ -28,6 +28,150 @@
             overflow-y: auto;
             overflow-x: hidden;
         }
+        .cc_text, .cc_button {
+            margin-bottom: 20px;
+            display: inline-block;
+        }
+        .btn {
+    letter-spacing: 1.5px;
+    -webkit-transition: all 200ms ease;
+    -o-transition: all 200ms ease;
+    transition: all 200ms ease;
+}
+.btn-default {
+    color: #4f2378;
+    background-color: transparent;
+    border-color: #d4cade;
+}
+@media (min-width: 480px){
+    .btn {
+        font-size: 17px;
+        padding: 11px 36px 10px;
+    }
+}
+.btn {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 500;
+    text-align: center;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 2px solid transparent;
+    white-space: nowrap;
+    padding: 9px 21px 9px;
+    font-size: 15px;
+    line-height: 1.5;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+a {
+    color: #d0021b;
+    text-decoration: none;
+}
+a {
+    background-color: transparent;
+}
+.btn-default:focus, .btn-default.focus, .btn-default:hover {
+    color: #fff;
+    background-color: #4f2378;
+    border-color: #4f2378;
+}
+.btn:hover, .btn:focus, .btn.focus {
+    color: #4f2378;
+    text-decoration: none;
+}
+.btn-default:active, .btn-default.active, .open > .dropdown-toggle.btn-default {
+    color: #fff;
+    background-image: none;
+    background-color: #4f2378;
+    border-color: #4f2378;
+}
+.btn-default:focus, .btn-default.focus, .btn-default:hover {
+    color: #fff;
+    background-color: #4f2378;
+    border-color: #4f2378;
+}
+.btn:active, .btn.active {
+    outline: 0;
+    background-image: none;
+}
+.btn:hover, .btn:focus, .btn.focus {
+    color: #4f2378;
+    text-decoration: none;
+}
+a:hover, a:focus {
+    color: #d0021b;
+    text-decoration: underline;
+}
+a:active, a:hover {
+    outline: 0;
+    color:white !important;
+}
+.btn {
+    letter-spacing: 1.5px;
+    -webkit-transition: all 200ms ease;
+    -o-transition: all 200ms ease;
+    transition: all 200ms ease;
+}
+.btn-default {
+    color: #4f2378;
+    background-color: #F3F3F3;;
+    border: solid 1px #d4cade !important;
+}
+@media (min-width: 480px){
+.btn {
+    font-size: 17px;
+    padding: 11px 36px 10px;
+}}
+.btn {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 500;
+    text-align: center;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 2px solid transparent;
+    white-space: nowrap;
+    padding: 9px 21px 9px;
+    font-size: 15px;
+    line-height: 1.5;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+a {
+    color: #d0021b;
+    text-decoration: none;
+}
+div{
+    transform: translateX(0) translateY(-100%);
+}
+.cssanimation, .cssanimation span {
+    animation-delay: 2s;
+    animation-duration: 0.75s;
+    animation-fill-mode: both;
+}
+
+.cssanimation span { display: inline-block }
+
+.fadeInBottom { animation-name: fadeInBottom }
+@keyframes fadeInBottom {
+    from {
+
+    }
+    to { 
+        transform: translate3d(0, -70px, 0);
+    }
+}
     </style>
 </head>
   
@@ -40,10 +184,12 @@
             height="100%" 
             scrolling="auto">
   </iframe>
-  
+  <div class="cc_content-wrapper fadeInBottom cssanimation" style="text-align: center;
+  height: 0;
+  margin-top: 0;">
+  <div class="cc_col cc_button"><a href="https://www.angelfire.com/super/badwebs/" class="btn btn-default cc_btn cc_btn_accept_all" style=" width: 200px;
+    height: 30px;">Akzeptieren</a></div></div>
+
 </body>
 
-<body style="background-image: url(ffhs.png);">
-    
-</body>
 </html>
